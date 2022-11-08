@@ -53,3 +53,24 @@ function countChrOccurence (string) {
 
    console.log(countChrOccurence (str));
 
+
+****************************************************
+       
+       
+// JavaScript code for the above approach...
+ 
+let countCharacters = (string) => {
+  let count = 1;
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] === string[i + 1]) {
+      count++;
+    } else {
+      console.log(`${string[i]} occur ${count} times`);
+      count = 1;
+    }
+  }
+};
+ 
+countCharacters("hello");
+ 
+// This
