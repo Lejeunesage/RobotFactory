@@ -72,5 +72,22 @@ let countCharacters = (string) => {
 };
  
 countCharacters("hello");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 // This
